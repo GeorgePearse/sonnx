@@ -1,0 +1,18 @@
+[package]
+name = "sonnx"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Utilities for manipulating and splitting ONNX models into shared backbones and custom heads"
+repository = "https://github.com/sonnx"
+
+[dependencies]
+onnx-extractor = "0.3"
+thiserror = "1"
+itertools = "0.12"
+smallvec = "1"
+blake3 = "1"
+
+[dev-dependencies]
+protobuf = "=3.4.0"
+onnx-protobuf = "0.2"
